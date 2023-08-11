@@ -9,6 +9,7 @@ export const meta: V2_MetaFunction = () => {
 
 export default function Index() {
   return (
+    <>
     <div style={{ fontFamily: "system-ui, sans-serif", lineHeight: "1.8" }}>
       <h1>Welcome to Remix</h1>
       <ul>
@@ -37,5 +38,9 @@ export default function Index() {
         </li>
       </ul>
     </div>
+    <div className="h-screen bg-slate-700 flex justify-center items-center">
+        <h2 className="text-blue-600 font-extrabold text-5xl">TailwindCSS Is Working!</h2>
+    </div>
+    </>
   );
 }
